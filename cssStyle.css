@@ -1,5 +1,28 @@
-body{
+
+body, html{
+  height: 100%;
   
+}
+*{
+  box-sizing: border-box;
+}
+.bg-image {
+  /*image used*/
+    background-image: url("laduree_soho_opening-7.jpg");
+
+  /*blur effect*/
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    height: 100%;
+
+  /*center and Scale image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
 }
 h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
