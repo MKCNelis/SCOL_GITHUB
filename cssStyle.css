@@ -29,7 +29,8 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 125%;
 }
-table.foto-menu{
+
+.foto-menu{
   /*table used for button section index*/ 
    object-position: center;
    margin-right: 10%;
@@ -38,4 +39,8 @@ table.foto-menu{
    width: 80%;
    padding-left: 10%;
    padding-right: 10%;
+   position: absolute;
+   top: 10%;
+   left:50%;
  } 
+
