@@ -42,4 +42,8 @@ h1{
       top: 30%;
       left: 15%;
  } 
- 
+ .contact-info{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+ }
