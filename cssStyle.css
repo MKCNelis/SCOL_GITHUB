@@ -29,14 +29,19 @@ h1{
    position: absolute;
    top: 25%;
    left:15%;
-   background-color: ivory;
+   backdrop-filter: blur(8px);
+   font: outline;
+   
    
  } 
  
  .Contact_info{
   position: absolute;
   top: 25%;
-  left:15%;
+  left:25%;
   font: outline;
-  background-color: antiquewhite;
+ background-color: ivory;
+  width: 30%;
+  height: 20%;
+  border: 20px green;
  }
