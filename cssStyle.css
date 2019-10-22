@@ -39,11 +39,14 @@ h1{
    padding-left: 10%;
    padding-right: 10%;
    position: absolute;
-      top: 30%;
-      left: 15%;
+   top: 25%;
+   left:15%;
  } 
- .contact-info{
+ 
+ .Contact_info{
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 25%;
+  left:15%;
+  font: outline;
+  background-color: antiquewhite;
  }
