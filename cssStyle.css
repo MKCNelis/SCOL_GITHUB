@@ -2,21 +2,9 @@
 body, html{
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  
-}
-*{
   box-sizing: border-box;
-}
-.bg-image {
   /*image used*/
-    background-image: url("logboek_maikel.png");
-
-  /*blur effect*/
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-
-    height: 100%;
-
+    background-image: url("william-karl-I1ox7msRbn8-unsplash.jpg");
   /*center and Scale image*/
     background-position: center;
     background-repeat: no-repeat;
@@ -41,12 +29,19 @@ h1{
    position: absolute;
    top: 25%;
    left:15%;
+   backdrop-filter: blur(8px);
+   font: outline;
+   
+   
  } 
  
  .Contact_info{
   position: absolute;
   top: 25%;
-  left:15%;
+  left:25%;
   font: outline;
-  background-color: antiquewhite;
+ background-color: ivory;
+  width: 30%;
+  height: 20%;
+  border: 20px green;
  }
