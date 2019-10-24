@@ -9,17 +9,13 @@ body, html{
 }
 .bg-image {
   /*image used*/
-    background-image: url("logboek_maikel.png");
-
-  /*blur effect*/
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    background-image: url("wallpaper.jpg");
 
     height: 100%;
 
   /*center and Scale image*/
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
 
