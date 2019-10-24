@@ -17,7 +17,7 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 125%;
 }
-.photo-menu{
+.photo-menu {
   /*table used for button section index*/ 
    object-position: center;
    margin-right: 10%;
@@ -29,13 +29,15 @@ h1{
    position: absolute;
    top: 25%;
    left:15%;
-   backdrop-filter: blur(8px);
+   background-color: rgb(255, 255, 255);
+   opacity: 80px;
+
    font: outline;
    
    
  } 
  
- .Contact_info{
+ .Contact_info {
   position: absolute;
   top: 25%;
   left:25%;
