@@ -30,8 +30,9 @@
       margin-bottom: 1.5em;
     }
     .main-image {
-      width: 600px;
+      width: 80%;
       margin-bottom: 0.75em;
+      
     }
     .thumbnails li {
       display: inline;
@@ -40,4 +41,35 @@
 
 .thumbnails li img {
   max-width: 84px;
+}
+
+.info_tabel{
+    margin-top:0px; 
+    margin-left:10px; 
+}
+
+.info_tabel-lamborghini{
+  left: 88px;
+  position: relative;
+}
+.info_tabel-td{
+  left: 20px;
+  position: relative;
+}
+
+.car-content{
+
+}
+
+.content-left{
+  float: left;
+}
+
+.content-right{
+  float: right;
+  width: 80%;
+}
+
+.clearer{
+  clear: both;
 }
