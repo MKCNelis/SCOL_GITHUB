@@ -13,7 +13,7 @@ body, html{
 
 
 }
-h1{
+h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 125%;
 }
@@ -29,21 +29,67 @@ h1{
    position: absolute;
    top: 25%;
    left:15%;
-   background-color: rgb(255, 255, 255);
-   opacity: 80px;
-
+   background-color:white;
    font: outline;
    
    
  } 
  
- .Contact_info {
+ .Contact_info{
   position: absolute;
   top: 25%;
-  left:25%;
+  left:35%;
   font: outline;
- background-color: ivory;
+ background-color: white;
   width: 30%;
   height: 20%;
-  border: 20px green;
+  
+ .logo-site{
+    padding-bottom: 10px;
+    padding-top: 0px;
+    right: 10px;
  }
+ .main-image {
+  width: 80%;
+  margin-bottom: 0.75em;
+  
+}
+.thumbnails li {
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+.thumbnails li img {
+max-width: 84px;
+}
+
+.info_tabel{
+margin-top:0px; 
+margin-left:10px; 
+}
+
+.info_tabel-lamborghini{
+left: 88px;
+position: relative;
+}
+.info_tabel-td{
+left: 20px;
+position: relative;
+}
+
+.car-content{
+
+}
+
+.content-left{
+float: left;
+}
+
+.content-right{
+float: right;
+width: 80%;
+}
+
+.clearer{
+clear: both;
+}
