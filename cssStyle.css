@@ -45,3 +45,8 @@ h1{
   height: 20%;
   border: 20px green;
  }
+ .logo-site{
+    padding-bottom: 10px;
+    padding-top: 0px;
+    right: 10px
+ }
